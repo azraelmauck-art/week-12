@@ -4,8 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const colorButton = document.getElementById("changeColor");
   const toggleButton = document.getElementById("toggleImage");
   
+  colorButton.addEventListener("click", () => {
+    box.style.backgroundColor = 
+      box.style.backgroundColor === "blue" ? "red" : "blue";
+  });
+  
   let toggled = false;
- toggleButton.addEventListener("click", () => {
+  toggleButton.addEventListener("click", () => {
     if (toggled) {
       gallery.src = "./assets/images/european-mink.png";
       toggled = false;
