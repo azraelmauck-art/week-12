@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.getElementById("toggleImage");
   
   let toggled = false;
-  toggleButton.addEventListener("click", () => {
+ toggleButton.addEventListener("click", () => {
     if (toggled) {
-      gallery.src = "./assets/images/image1.png";
+      gallery.src = "./assets/images/european-mink.png";
       toggled = false;
     } else {
-      gallery.src = "./assets/images/pumpkin.png";
+      gallery.src = "./assets/images/european-polecat.png";
       toggled = true;
     }
   });
