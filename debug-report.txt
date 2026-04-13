@@ -1,3 +1,3 @@
 Two problems I found are "Failed to load resource: the server responded with a status of 404 ()", when my main image wasn't showing up upon entering the site, and "Uncaught TypeError: Cannot read properties of null (reading 'style')", when I clicked the button and it didn't change color.
-
+I fixed these by making the pathways and filenames of all my images consistent (some of them had typos, while others lacked thedirection to go to the "images" folder entirely) and making sure to use the correct amount of ending parentheses so the code will load.
 I learned to use Inspect Element a lot more in depth than before and about JavaScript specific errors like the ones I recounted above.
