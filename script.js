@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
   let toggled = false;
   toggleButton.addEventListener("click", () => {
     if (toggled) {
-      gallery.src = "./assets/european-mink.png";
+      gallery.src = "./assets/images/european-mink.png";
       toggled = false;
     } else {
-      gallery.src = "./assets/image/european-polecat.png"; 
+      gallery.src = "./assets/images/european-polecat.png"; 
       toggled = true;
     }
   });
